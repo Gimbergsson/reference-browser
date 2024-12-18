@@ -33,5 +33,5 @@ class AddToHomeScreenRobot {
 
     private fun cancelAddToHomeScreenButton() = mDevice.findObject(UiSelector().textContains("CANCEL"))
     private fun addAutomaticallyToHomeScreenButton() =
-        mDevice.findObject(UiSelector().textContains("ADD AUTOMATICALLY"))
+        mDevice.findObject(UiSelector().textContains("Add to home screen"))
 }
