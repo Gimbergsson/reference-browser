@@ -74,40 +74,40 @@
             />
 
         <activity
-            android:theme="@style/AddonsActivityTheme"
             android:name=".addons.AddonsActivity"
             android:label="@string/mozac_feature_addons_addons"
+            android:parentActivityName=".BrowserActivity"
             android:exported="false"
-            android:parentActivityName=".BrowserActivity" />
+            android:theme="@style/AddonsTheme" />
 
         <activity
-            android:theme="@style/Theme.AppCompat.Light"
             android:name=".addons.AddonDetailsActivity"
+            android:label="@string/mozac_feature_addons_addons"
             android:exported="false"
-            android:label="@string/mozac_feature_addons_addons" />
+            android:theme="@style/AddonsTheme" />
 
         <activity android:name=".addons.InstalledAddonDetailsActivity"
             android:label="@string/mozac_feature_addons_addons"
             android:parentActivityName=".addons.AddonsActivity"
             android:exported="false"
-            android:theme="@style/Theme.AppCompat.Light" />
+            android:theme="@style/AddonsTheme" />
 
         <activity
             android:name=".addons.PermissionsDetailsActivity"
             android:label="@string/mozac_feature_addons_addons"
             android:exported="false"
-            android:theme="@style/Theme.AppCompat.Light" />
+            android:theme="@style/AddonsTheme" />
 
         <activity
             android:name=".addons.AddonSettingsActivity"
             android:label="@string/mozac_feature_addons_addons"
             android:exported="false"
-            android:theme="@style/Theme.AppCompat.Light" />
+            android:theme="@style/AddonsTheme" />
 
         <activity
             android:name=".addons.WebExtensionActionPopupActivity"
             android:label="@string/mozac_feature_addons_addons"
-            android:theme="@style/Theme.AppCompat.Light"/>
+            android:theme="@style/AddonsTheme" />
 
         <activity
             android:name=".IntentReceiverActivity"
