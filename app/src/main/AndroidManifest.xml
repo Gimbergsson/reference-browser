@@ -83,6 +83,7 @@
         <activity
             android:name=".addons.AddonDetailsActivity"
             android:label="@string/mozac_feature_addons_addons"
+            android:parentActivityName=".addons.AddonsActivity"
             android:exported="false"
             android:theme="@style/AddonsTheme" />
 
@@ -95,17 +96,20 @@
         <activity
             android:name=".addons.PermissionsDetailsActivity"
             android:label="@string/mozac_feature_addons_addons"
+            android:parentActivityName=".addons.AddonsActivity"
             android:exported="false"
             android:theme="@style/AddonsTheme" />
 
         <activity
             android:name=".addons.AddonSettingsActivity"
             android:label="@string/mozac_feature_addons_addons"
+            android:parentActivityName=".addons.AddonsActivity"
             android:exported="false"
             android:theme="@style/AddonsTheme" />
 
         <activity
             android:name=".addons.WebExtensionActionPopupActivity"
+            android:parentActivityName=".BrowserActivity"
             android:label="@string/mozac_feature_addons_addons"
             android:theme="@style/AddonsTheme" />
 
